@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDiskmag", "TheDiskmag\TheDiskmag.csproj", "{AA050863-92DC-473B-B3E7-35B35C4B9E91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDiskmag.Crypto.Test", "TheDiskmag.Crypto.Test\TheDiskmag.Crypto.Test.csproj", "{AB770AC3-79F4-4CFE-AB1C-5B24BE9BCB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDiskmag.Crypto", "TheDiskmag.Crypto\TheDiskmag.Crypto.csproj", "{F4C85AC0-AD66-49C8-81BE-A4FF403CC8D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{AA050863-92DC-473B-B3E7-35B35C4B9E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA050863-92DC-473B-B3E7-35B35C4B9E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA050863-92DC-473B-B3E7-35B35C4B9E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB770AC3-79F4-4CFE-AB1C-5B24BE9BCB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB770AC3-79F4-4CFE-AB1C-5B24BE9BCB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB770AC3-79F4-4CFE-AB1C-5B24BE9BCB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB770AC3-79F4-4CFE-AB1C-5B24BE9BCB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C85AC0-AD66-49C8-81BE-A4FF403CC8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C85AC0-AD66-49C8-81BE-A4FF403CC8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C85AC0-AD66-49C8-81BE-A4FF403CC8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C85AC0-AD66-49C8-81BE-A4FF403CC8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
