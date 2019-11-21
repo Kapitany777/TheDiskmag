@@ -13,5 +13,11 @@ namespace TheDiskmag
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            ProgramInfo.ProgramName = "The Diskmag";
+            ProgramInfo.ProgramVersion = "V1.02 2019.11.21";
+            ProgramInfo.ProgramAuthor = "Viktor Török";
+        }
     }
 }
